@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(250, 235, 162);
+}
+
+.titulo {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 150px;
+  color: black;
+}
+
+.descricao {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.disciplinas h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.linha-superior {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.linha-inferior {
+  display: flex;
+  justify-content: center;
+}
+
+.disciplina {
+  width: 350px;
+  height: 450px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.disciplina h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.disciplina img {
+  width: 250px;
+  height: 250px;
+  transition: filter 0.3s;
+}
+
+.disciplina:hover img {
+  filter: brightness(50%);
+}
+
+@media screen and (max-width: 600px) {
+  .disciplina {
+    width: 200px;
+    height: 300px;
+  }
+
+  .disciplina img {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+.capa {
+  background-image: url("imagens/portfolio.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+header {
+  color: #fff;
+  padding: 10px; /* Reduzindo o valor do padding */
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  background-color: rgb(249, 226, 119);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  background-color: rgb(249, 226, 119);
+  padding-left: 35px; /* Resetting the default padding */
+}
+
+nav li {
+  display: inline;
+  margin-right: 80px; /* Increasing the margin between items even more */
+  background-color: rgb(249, 226, 119);
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}

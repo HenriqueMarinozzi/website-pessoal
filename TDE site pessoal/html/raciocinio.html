@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio - Raciocínio Algorítmico</title>
+    <link rel="stylesheet" type="text/css" href="../css/raciocinio.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#menu">Voltar ao Menu</a></li>
+          <li><a href="#disciplinas">Disciplinas</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Raciocínio Algorítmico</h1>
+    <h2>
+      Durante a disciplina de Raciocínio Algorítmico, realizamos diversos <br />
+      trabalhos práticos e teóricos, aplicando conceitos de lógica e algoritmos.
+    </h2>
+    <h2 class="meus-trabalhos">Meus Trabalhos</h2>
+    <div class="trabalhos">
+      <div class="trabalho trabalho-duplo">
+        <h3>Jogo da Forca</h3>
+        <div class="imagem-container">
+          <img src="..\imagens\forca.png" alt="Organograma" class="imagem" />
+          <img src="..\imagens\codigoforca.png" alt="Codigoforca" class="imagem2" />
+        </div>
+        <a href="https://github.com/HenriqueMarinozzi/jogodaforca/blob/main/jogo">Código do Jogo da Forca</a>
+        <p>
+          Nesse trabalho criamos um programa em Python que implemente o jogo da forca. Utilizei vetores para representar a palavra
+          secreta, <br />
+          onde cada elemento do vetor representa uma letra da palavra e um loop "for" para percorrer o vetor da palavra secreta e
+          verificar <br />
+          se as letras informadas pelo jogador estão presentes.
+        </p>
+      </div>
+      <div class="trabalho trabalho-duplo">
+        <h3>Batalha Naval</h3>
+        <img src="../imagens/batalha.png" alt="batalhanaval" />
+        <p>
+          No jogo do Batalha Naval implementamos por meio da linguagem Python o jogo original. Batalha Naval é um jogo de <br />
+          tabuleiro de lápis e papel do qual participam dois jogadores. O objetivo do jogo é afundar a tropa de navios do inimigo.
+          <br />
+          Inicialmente é definido um tabuleiro (matriz) de 5x10, os tabuleiros não são visíveis para os jogadores. Antes de <br />
+          iniciar o jogo, os jogadores posicionam a sua frota em seu tabuleiro, sem revelar ao adversário tal posicionamento.
+          <br />
+          As jogadas são feitas de forma alternada. Quando da sua vez, o jogador “atira” em uma posição do tabuleiro <br />
+          do aversário indicando suas coordenadas (linha e coluna). O jogo deve então informar se o tiro acertou algo ou não.
+          <br />
+          Se o jogador acertou algo, então a embarcação foi afundada. Ganha o jogo quem afundar primeiro a frota do aversário.
+        </p>
+      </div>
+      <div class="trabalho trabalho-duplo">
+        <h3>Jogo do Joquempô</h3>
+        <img src="../imagens/jokenpo.png" alt="Imagem" />
+        <p>
+          Nessa atividade, eu junto com a minha equipe desenvolvemos um jogo de Joquempô. É apresentado aos jogadores três opções:
+          <br />
+          pedra, papel ou tesoura. Caso seja escolhida a mesma opção é dado empate e o jogo funciona em loop
+        </p>
+        <a href="https://www.youtube.com/watch?v=ihVCPwsk4uA&ab_channel=EduardoThomazoniPessoaSilva">Vídeo do Youtube</a>
+        <p></p>
+      </div>
+    </div>
+    <script src="../../js/raciocinio.js"></script>
+  </body>
+</html>

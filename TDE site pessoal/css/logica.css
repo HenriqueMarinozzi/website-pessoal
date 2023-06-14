@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(250, 235, 162);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 90px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.meus-trabalhos {
+  font-size: 60px;
+  margin-top: 180px;
+  text-align: center;
+}
+
+.espaco {
+  height: 100px; /* Espaço entre o subtítulo e a exibição dos trabalhos */
+}
+
+.trabalhos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.linha {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trabalho {
+  width: calc(50% - 10px);
+  height: 800px; /* Altura dos quadrados dos trabalhos */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.trabalho h3 {
+  font-size: 35px;
+}
+
+.trabalho img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 500px; /* Aumente o valor para tornar as imagens maiores */
+  margin-bottom: 10px;
+}
+
+.trabalho p {
+  margin-top: 50px;
+  font-size: 24px;
+  padding: 20px;
+}
+
+header {
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  background-color: rgb(249, 226, 119);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  background-color: rgb(249, 226, 119);
+  padding-left: 35px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 80px;
+  background-color: rgb(249, 226, 119);
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
